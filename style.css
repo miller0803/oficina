@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100;
+    font-size: 62.5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgb(25, 25, 25, 0.5)), url(https://z-p3-scontent.ffor11-1.fna.fbcdn.net/v/t39.30808-6/301215118_502383225225822_7590675672152120895_n.png?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IDtfydWwBpUQ7kNvgHD4r8h&_nc_ht=z-p3-scontent.ffor11-1.fna&oh=00_AYAVrTK0m5Z-NLIBAShDmDyxmQT1e4Qk1FqWb-FNToKfbA&oe=667B5C22);
+    background-position: center center;
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    width: 100%;
+    height: 7vw;
+    background-color: rgb(200, 200, 2);
+}
+
+.menu {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4;
+    cursor: pointer;
+}
+
+.menu .lista {
+
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu .lista a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 2ms ease-in;
+    position: relative;
+}
